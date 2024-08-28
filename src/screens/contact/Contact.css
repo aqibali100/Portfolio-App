@@ -1,0 +1,46 @@
+.form-inputs input,
+.form-inputs textarea {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #1976d2;
+    outline: none;
+    font-size: 13px;
+    background: none;
+    color: white;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-input:hover {
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.5);
+}
+
+.c-inputs input,
+.c-inputs textarea {
+    width: 100%;
+}
+
+.invalid-feedback {
+    font-size: 12px;
+}
+
+.glow-input.is-invalid {
+    border-color: #dc3545;
+}
+
+/* responsiveness */
+
+@media (max-width: 768px) {
+
+    .contact-text,
+    .contact-heading,
+    .c-info,
+    .footer-bottom,
+    .footer-bg {
+        text-align: center;
+    }
+
+    .submit-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+}

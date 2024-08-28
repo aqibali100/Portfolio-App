@@ -1,0 +1,140 @@
+.text-animation {
+    font-size: 25px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.span-size {
+    font-size: 30px;
+}
+
+.text-animation span {
+    position: relative;
+}
+
+.text-animation span::before {
+    content: 'MERN Stack Developer';
+    color: #1976d2;
+    animation: words 20s infinite
+}
+
+.first-span {
+    margin: 0;
+    font-size: 19px;
+}
+
+.text-animation span::after {
+    content: '';
+    background-color: rgb(14 13 13);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid #1976d2;
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+
+.why-choose-me-item {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #1976d2;
+    border-radius: 9px;
+    background-color: #1c1c1c;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.why-choose-me-item svg {
+    font-size: 40px;
+}
+
+.why-choose-me-item p {
+    color: rgb(133, 124, 124);
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.why-choose-me-item h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.why-choose-me-item:hover {
+    box-shadow: 0 0 20px #1976d2,
+        0 0 40px rgba(0, 255, 255, 0.4),
+        0 0 60px rgba(0, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+@media (max-width: 994px) {
+    .span-size {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 361px) {
+    .span-size {
+        font-size: 19px;
+    }
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid blue;
+    }
+}
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: 'Frontend Developer';
+    }
+
+    21%,
+    40% {
+        content: 'Backend Developer';
+    }
+
+    41%,
+    60% {
+        content: 'Full Stack Developer';
+    }
+
+    61%,
+    80% {
+        content: 'Software Developer';
+    }
+
+    81%,
+    100% {
+        content: 'MERN Stack Developer';
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}

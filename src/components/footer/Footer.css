@@ -1,0 +1,121 @@
+.footer-para {
+    margin: 20px 0 0 0;
+    color: #b3a5a5;
+}
+
+.footer-heading {
+    margin: 0;
+    color: white;
+}
+
+.footer-bg {
+    background-color: rgb(14 13 13);
+}
+
+.footer-links {
+    display: grid;
+    margin-top: 30px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #b3a5a5;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 12px;
+    transition: all .5s ease;
+}
+
+.footer-links a:hover {
+    padding-left: 20px;
+    color: #1976d2;
+}
+
+.contact-main {
+    margin-top: 30px;
+}
+
+.contact-info {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #b3a5a5;
+}
+
+.contact-info svg {
+    color: green;
+}
+
+.email-info {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-info p {
+    margin: 0;
+    color: #b3a5a5;
+}
+
+.email-info svg {
+    color: #1b08b3;
+}
+
+.location-info {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location-info p {
+    margin: 0;
+    color: #b3a5a5;
+}
+
+.location-info svg {
+    color: white;
+}
+
+.icons-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.linkedin-icon svg {
+    color: white;
+    cursor: pointer;
+}
+
+.youtube-icon svg {
+    color: white;
+    cursor: pointer;
+}
+
+.github-icon svg {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: black;
+}
+
+.common-icon-style {
+    border-radius: 50%;
+    border: 1px solid #1976d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.glow-icon:hover {
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.5);
+}

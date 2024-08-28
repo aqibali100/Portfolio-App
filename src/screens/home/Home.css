@@ -1,0 +1,48 @@
+.common-color {
+    color: var(--bg-color);
+}
+
+.glow-input:hover {
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.5);
+}
+
+.service-card {
+    padding: 10px 20px;
+    border: 1px solid #1976d2;
+    border-radius: 9px;
+    background-color: #1c1c1c;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.service-icon {
+    margin-bottom: 10px;
+}
+
+.service-icon svg {
+    font-size: 40px;
+}
+
+.service-info p {
+    color: rgb(133, 124, 124);
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.service-info h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.service-card:hover {
+    box-shadow: 0 0 20px #1976d2,
+        0 0 40px rgba(0, 255, 255, 0.4),
+        0 0 60px rgba(0, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+
+@media (max-width: 768px) {
+    .banner-left {
+        text-align: center;
+    }
+}
