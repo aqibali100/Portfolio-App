@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
-import resume from '../../pdf/Aqib-Ali.pdf';
+import resume from '../../pdf/Aqib Ali.pdf';
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
