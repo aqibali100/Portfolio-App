@@ -106,10 +106,14 @@ body {
     z-index: 100;
     width: 320px;
     padding: 10px 15px;
-    height: 350px;
+    height: 100vh;
     border-radius: 5px;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    background-image: url('../../assests/images/particels.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
 }
 
 .mobile-main.slide-in {
@@ -126,6 +130,7 @@ body {
     row-gap: 18px;
     width: 100%;
     text-align: center;
+    margin-top: 25px;
 }
 
 .mobile-navbar a:hover {

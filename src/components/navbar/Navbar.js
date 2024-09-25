@@ -68,9 +68,9 @@ const Navbar = () => {
             <nav className='mobile-navbar'>
               <Link to='/' onClick={handleLinkClick}>Home</Link>
               <Link to='/about' onClick={handleLinkClick}>About</Link>
-              <Link to='/technologies' onClick={handleLinkClick}>Technologies</Link>
               <Link to='/portfolio' onClick={handleLinkClick}>Portfolio</Link>
               <Link to='/contact' onClick={handleLinkClick}>Contact Me</Link>
+              <Link to='/technologies' onClick={handleLinkClick}>Technologies</Link>
             </nav>
             <div className='mobile-resume-btn'>
               <a href={resume} download rel='noopener noreferrer'>

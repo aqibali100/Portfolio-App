@@ -8,11 +8,13 @@ import Contact from './screens/contact/Contact';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import About from './screens/about/About';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>

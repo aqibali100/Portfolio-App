@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2cc31a1.css",
+    "main.js": "/static/js/main.3594cc40.js",
+    "static/media/banner.png": "/static/media/banner.1fc3574f3ba8fe3a2753.png",
+    "static/media/Aqib Ali.pdf": "/static/media/Aqib Ali.5d874882215418d8c0a4.pdf",
+    "static/media/about.png": "/static/media/about.d764efccddd5f81247f9.png",
+    "static/media/contact.webp": "/static/media/contact.e72ad01f47f0ee10ca34.webp",
+    "index.html": "/index.html",
+    "main.d2cc31a1.css.map": "/static/css/main.d2cc31a1.css.map",
+    "main.3594cc40.js.map": "/static/js/main.3594cc40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2cc31a1.css",
+    "static/js/main.3594cc40.js"
+  ]
+}
