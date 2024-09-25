@@ -27,9 +27,9 @@ const Footer = () => {
               <nav className='footer-links'>
                 <Link to='/' >Home</Link>
                 <Link to='/about' >About</Link>
-                <Link to='/technologies' >Technologies</Link>
                 <Link to='/portfolio'>Portfolio</Link>
                 <Link to='/contact' >Contact Me</Link>
+                <Link to='/technologies' >Technologies</Link>
               </nav>
             </div>
             <div className='col-md-4 mb-4'>

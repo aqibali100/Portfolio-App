@@ -40,9 +40,68 @@
     transform: translateY(-10px);
 }
 
+.slider-card-img {
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.slider-card-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.slider-card-text {
+    width: 600px;
+    margin: auto;
+}
+
+.carousel-indicators {
+    display: none;
+}
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-track {
+    display: flex;
+    width: calc(250px * 8);
+    animation: scroll 20s linear infinite;
+  }
+  
+  .slide-1 {
+    width: 110px;
+    padding: 10px;
+  }
+  
+  .slide-1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
 @media (max-width: 768px) {
     .banner-left {
         text-align: center;
+    }
+
+    .slider-card-text {
+        width: 480px;
+    }
+}
+
+@media (max-width: 557px) {
+    .slider-card-text {
+        width: 257px;
     }
 }
