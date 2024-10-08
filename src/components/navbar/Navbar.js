@@ -50,11 +50,11 @@ const Navbar = () => {
               <Link to='/portfolio' className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
               <Link to='/contact' className={location.pathname === '/contact' ? 'active' : ''}>Contact Me</Link>
             </nav>
-            <a href={resume} download rel='noopener noreferrer'>
+            {/* <a href={resume} download rel='noopener noreferrer'>
               <Button variant="contained" className='resume-btn' sx={{ textTransform: 'capitalize' }}>
                 My Resume
               </Button>
-            </a>
+            </a> */}
             <MenuIcon className='menu-icon' onClick={handleNavOpen} />
           </header>
         </div>
@@ -72,13 +72,13 @@ const Navbar = () => {
               <Link to='/contact' onClick={handleLinkClick}>Contact Me</Link>
               <Link to='/technologies' onClick={handleLinkClick}>Technologies</Link>
             </nav>
-            <div className='mobile-resume-btn'>
+            {/* <div className='mobile-resume-btn'>
               <a href={resume} download rel='noopener noreferrer'>
                 <Button variant="contained" className='resume-btn-1' sx={{ textTransform: 'capitalize' }}>
                   Download Resume
                 </Button>
               </a>
-            </div>
+            </div> */}
           </div>
         </ClickAwayListener>
       )}
