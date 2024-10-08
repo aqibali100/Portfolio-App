@@ -22,12 +22,12 @@ const Contact = () => {
     const formik = useFormik({
         initialValues: initialValues,
         validationSchema: validationSchema,
-        onSubmit: (values) => {
-            // localStorage.setItem('contactFormData', JSON.stringify(values));
-            // formik.resetForm();
-            toast.success('Submit Successfully!');
+        onSubmit: (values, { resetForm }) => {
+            toast.success('Submitted Successfully!');
+            resetForm();
         },
     });
+    
 
     return (
         <>
@@ -57,7 +57,7 @@ const Contact = () => {
                     <div className='row'>
                         <div className='form-heading text-center'>
                             <h3 className='text-white'>Get <span className='common-color'>in</span> Touch</h3>
-                            <p className='text-white'>We'd love to hear from you! Whether you have a question, feedback,<br></br> or just want to say hello, our team is here to help.</p>
+                            <p className='text-white'>I'd love to hear from you! Whether you have a question, feedback,<br></br> or just want to say hello</p>
                         </div>
                     </div>
                     <div className='row mt-5'>
@@ -65,7 +65,7 @@ const Contact = () => {
                             <div className='contact-information'>
                                 <div className='contact-heading'>
                                     <h3 className='text-white'>Contact Info<span className='common-color'>rmation</span></h3>
-                                    <p className='text-white mb-5'>For any inquiries or support, please reach out<br></br> to us using the details below:</p>
+                                    <p className='text-white mb-5'>For any inquiries or support, please reach out<br></br> to me using the details below:</p>
                                 </div>
                                 <div className='row d-flex align-items-center'>
                                     <div className='col-md-6'>
@@ -89,7 +89,7 @@ const Contact = () => {
                             <div className='contact-form'>
                                 <div className='contact-heading'>
                                     <h3 className='text-white text-center'>Let's Con<span className='common-color'>nect</span></h3>
-                                    <p className='text-white mb-5 text-center'>We'd love to hear from you! Please fill out the form below, and our team will get back to you as soon as possible.</p>
+                                    <p className='text-white mb-5 text-center'>I'd love to hear from you! Please fill out the form below, and I will get back to you as soon as possible.</p>
                                 </div>
                                 <form onSubmit={formik.handleSubmit}>
                                     <div className='row d-flex justify-content-between form-inputs px-3'>

@@ -18,7 +18,7 @@ const Footer = () => {
               <div className='footer-logo'>
                 <Link to='/' className='logo'>Code<span className='common-color'>With</span>Aqib</Link>
                 <p className='footer-para'>
-                  With a strong foundation in both front-end and back-end development, We bring ideas to life through clean, efficient code and a keen eye for design.
+                  With a strong foundation in both front-end and back-end development, I bring ideas to life through clean, efficient code and a keen eye for design.
                 </p>
               </div>
             </div>
@@ -62,9 +62,9 @@ const Footer = () => {
               <div className='linkedin-icon glow-icon common-icon-style'>
                 <Link to='https://www.linkedin.com/in/aqib-ali-735633290/' target='_blank'><LinkedInIcon /></Link>
               </div>
-              <div className='youtube-icon glow-icon common-icon-style'>
+              {/* <div className='youtube-icon glow-icon common-icon-style'>
                 <Link to='https://www.youtube.com/channel/UCEr3nhRRap-5Fkvx1mzpPlw' target='_blank'><YouTubeIcon /></Link>
-              </div>
+              </div> */}
               <div className='github-icon glow-icon common-icon-style'>
                 <Link to='https://github.com/aqibali100' target='_blank'><GitHubIcon /></Link>
               </div>
