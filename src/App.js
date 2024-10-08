@@ -9,6 +9,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import About from './screens/about/About';
 import ScrollToTop from './components/ScrollToTop';
+import Portfolio from './screens/portfolio/Portfolio';
+import Technology from './screens/technologies/Technology';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/portfolio' element={<Portfolio />}></Route>
+        <Route path='/technologies' element={<Technology />}></Route>
       </Routes>
       <Footer />
       <ToastContainer />

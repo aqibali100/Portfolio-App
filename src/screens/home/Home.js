@@ -15,7 +15,12 @@ import sliderImg1 from '../../assests/images/testimonial-1-100x100.jpg'
 import sliderImg2 from '../../assests/images/testimonial-2-100x100.jpg'
 import sliderImg3 from '../../assests/images/testimonial-3-100x100.jpg'
 import sliderImg4 from '../../assests/images/testimonial-4-100x100.jpg'
-import logoImg1 from '../../assests/images/php.png'
+// import logoImg1 from '../../assests/images/html.png'
+// import logoImg2 from '../../assests/images/css.png'
+// import logoImg3 from '../../assests/images/js.png'
+// import logoImg4 from '../../assests/images/Bootstrap.png'
+// import logoImg5 from '../../assests/images/shopify.png'
+// import logoImg6 from '../../assests/images/wordpress.png'
 const Home = () => {
   return (
     <div className='banner-bg'>
@@ -125,24 +130,24 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="logo-slider-bg mt-5 mb-5">
+      {/* <div class="logo-slider-bg mt-5 mb-5">
         <div class="container">
           <div class="row">
             <div class="col">
               <div className="logo-slider">
                 <div className="slider-track">
                   <div className="slide-1"><img src={logoImg1} alt="Logo 1" /></div>
-                  <div className="slide-1"><img src={sliderImg1} alt="Logo 2" /></div>
-                  <div className="slide-1"><img src={sliderImg1} alt="Logo 3" /></div>
-                  <div className="slide-1"><img src={sliderImg1} alt="Logo 4" /></div>
-                  <div className="slide-1"><img src={sliderImg1} alt="Logo 5" /></div>
-                  <div className="slide-1"><img src={sliderImg1} alt="Logo 6" /></div>
+                  <div className="slide-1"><img src={logoImg2} alt="Logo 2" /></div>
+                  <div className="slide-1"><img src={logoImg3} alt="Logo 3" /></div>
+                  <div className="slide-1"><img src={logoImg4} alt="Logo 4" /></div>
+                  <div className="slide-1"><img src={logoImg5} alt="Logo 5" /></div>
+                  <div className="slide-1"><img src={logoImg6} alt="Logo 6" /></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="review-bg mt-5 mb-5">
         <div className="container">
           <div className="row">
