@@ -1,6 +1,6 @@
 import React from 'react'
 import buyurduthemes from '../../assests/images/buyurduthemes.png'
-import jobhorizon from '../../assests/images/jobhorizon.png'
+import loyalty from '../../assests/images/loyalty.png'
 import ilmiya from '../../assests/images/ilmiya.png'
 import skinny from '../../assests/images/skinny.png'
 import '../../assests/styles/Portfolio.css'
@@ -48,16 +48,16 @@ const Portfolio = () => {
                         <div class="col-lg-4 col-md-6 mb-5">
                             <div class="project">
                                 <div class="project-img">
-                                    <img src={jobhorizon} alt='jobhorizon'></img>
+                                    <img src={loyalty} alt='loyalty'></img>
                                 </div>
                                 <div class="project-name text-white mt-4">
-                                    <h2 className='common-color'>JobHorizon</h2>
+                                    <h2 className='common-color'>LoyaltyPromo</h2>
                                 </div>
                                 <div class="project-description text-white mt-4">
-                                    <p>JobHorizon is an online job portal made in Full Stack Development(MERN Stack Development). Here Employers can post jobs and job seekers can apply for jobs. They can chat eachother.</p>
+                                    <p>LoyaltyPromo is a Agency which provides Digital Marketing, Web Development, Mobile App Development, E-Commerce Solutions. And This is MERN Stack Project.This is my interesting project.</p>
                                 </div>
                                 <div class="project-link text-center">
-                                    <Link to='https://job-horizone.vercel.app/' target='_blank' className='text-white'>Visit Site</Link>
+                                    <Link to='https://www.loyaltypro.site/' target='_blank' className='text-white'>Visit Site</Link>
                                 </div>
                             </div>
                         </div>
